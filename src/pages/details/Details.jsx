@@ -10,7 +10,7 @@ const Details = () => {
     <DetailContainer>
       <HeaderContainer>
         <h1>{state.label}</h1>
-        <img src={diet} />
+        <img src={diet} alt={diet}/>
         </HeaderContainer>
 
         <DetailPart>
@@ -46,7 +46,7 @@ const Details = () => {
           </OtherPart>
 
           <ImgContainer>
-            <img src={state.image}></img>
+            <img src={state.image} alt={diet}/>
           </ImgContainer>
 
           <IngContainer>
